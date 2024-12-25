@@ -1,0 +1,5 @@
+docker run --network=host -it\
+	-e GOOSE_DRIVER=$1\
+	-e GOOSE_DBSTRING=$2\
+	--volume $3:/migrations\
+	docker-goose "down"

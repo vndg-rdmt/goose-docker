@@ -1,0 +1,7 @@
+.env
+.tmp
+.temp
+.vscode
+.DS_Store
+.out
+bin
